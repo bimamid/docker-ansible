@@ -1,6 +1,6 @@
 - hosts: server
   vars:
-  - image: bimamid/apache-docker-ansible
+  - image: reocell/apache-docker-ansible
   tasks:
     - name: install python-docker di ubuntu
       apt:
